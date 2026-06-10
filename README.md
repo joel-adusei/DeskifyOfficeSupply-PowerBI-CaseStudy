@@ -34,9 +34,10 @@ centralize data sources and streamline datacleaning. By reducing manual processe
 
 The data modeling for this project follows a clean Star Schema configuration, where the central Fact Table (Orders) links out to primary Dimension Tables (Customers, Location, Products, and a programmatic Calendar Table) through unique system identifiers.
 
-![image]()
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/deskify%20data%20model.JPG?raw=true)
 
 
 To support robust time-series calculations across the complete 2009–2012 matrix, a custom, standalone time dimension was generated directly inside the Power BI data model using DAX.
 
-![image]()
+
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/calenderdim.JPG?raw=true)
