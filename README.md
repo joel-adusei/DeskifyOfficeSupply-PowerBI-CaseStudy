@@ -1,8 +1,19 @@
-# DESKIFY PERFORMANCE ANALYSIS
+# DESKIFY OFFICE SUPPLY PERFORMANCE ANALYSIS
 
 ## Leveraging Power BI's Advanced Analytics for Product Profitability and Customer Segmentation Analysis at Deskify
 
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/tim-gouw-KigTvXqetXA-unsplash.jpg?raw=true)
+
+
 ***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on healthcare dataset*
+
+
+## INTRODUCTION
+
+For this case study, I analyzed data from Deskify's Office Supply — a fictional US company specializing in office supplies, technology/computer accessories, and furniture.
+With a diverse product range catering to both individual consumers and businesses. This Power BI project helped uncover critical insights to inform business decisions around customer
+and product performance.
+
 
 ## PROBLEM STATEMENT
 The organization currently depends on Excel for compiling, analyzing, and reporting its monthly sales and transaction data. It has become increasingly cumbersome and time-consuming due
@@ -15,13 +26,16 @@ errors and inconsistencies.
 centralize data sources and streamline datacleaning. By reducing manual processes, the project will improve reporting accuracy and efficiency.
 
 - Build an interactive dashboards that will enable faster, data-driven decisions.
+  
 
 
-## Methodology 
+## METHODOLOGY 
 
 Before building visuals, I had to clean and model the data to ensure the insights were reliable.
 
 ### Step 1: Data Cleaning & Preparation
+
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/data%20clean%20-%20deskify.JPG?raw=true)
 
 
 ### Step 2: Modelling & DAX
@@ -33,27 +47,27 @@ The data modeling for this project follows a clean Star Schema configuration, wh
 
 I wrote DAX measures for:
 
-- Total Revenue
+- **Total Revenue**
   
 ![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/TR-deskify.JPG?raw=true)
 
 
-- Total profit
+- **Total profit**
   
 ![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/TP-deskify.JPG?raw=true)
 
 
-- Total Orders
+- **Total Orders**
   
 ![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/TO-deskify.JPG?raw=true)
 
 
-- Total Customers
+- **Total Customers**
   
 ![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/TC-deskify.JPG?raw=true)
 
 
-- Profit Margin
+- **Profit Margin**
   
 ![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/PM-deskify.JPG?raw=true)
 
@@ -69,7 +83,7 @@ To support robust time-series calculations across the complete 2009–2012 matri
 
 I designed two interactive pages:
 
-1️⃣ Product Insights
+1️⃣ **Product Insights**
 
 Key KPIs, Total Profit by Product Category, Total Orders by Ship Mode, Top 10 Best Performing States by Profit, Total Profit by Product Name, and Total Profit by Month.
 
@@ -77,9 +91,60 @@ Key KPIs, Total Profit by Product Category, Total Orders by Ship Mode, Top 10 Be
 
 
 
-2️⃣ Customer Insights
+2️⃣ **Customer Insights**
 
 Key KPIs, Profitability by Customer Segment, Profitability by Product Sub-Category, Profitability by Customer, Profitability by Region 
 and Customer Segment.
 
 ![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/Customer%20Analysis.JPG?raw=true)
+
+
+
+## KEY INSIGHTS
+
+### **Revenue & Profitability**
+
+Deskify generated **$14.74M in revenue** and **$1.52M in profit**, resulting in a **10.33% profit margin**. The business operates on a high-volume, low-margin model, making cost efficiency and operational optimization critical to profitability.
+
+### **Product Performance**
+
+* **Office Supplies** is the primary profit driver, contributing **64.7% ($985K)** of total profit.
+* Top-performing sub-categories include **Binders ($260K)** and **Paper ($242K)**.
+* **Technology** contributes only **13.5% ($206K)** of profit despite its strategic importance.
+* **Copiers** are the only loss-making sub-category, generating **-$16K** in profit.
+
+### **Customer Segments**
+
+* The **Corporate** segment delivers the highest profit contribution (**$530K**), followed by **Home Office ($390K)**.
+* A small group of high-value customers contributes a disproportionately large share of total profits, highlighting opportunities for customer retention and account management strategies.
+
+### **Seasonal Trends**
+
+Profitability demonstrates strong seasonality:
+
+* Peak performance occurs in **September ($167K)** and **October ($177K)**.
+* **August ($81K)** is the weakest month, indicating a significant seasonal slowdown that may require targeted promotional activity.
+
+### **Regional Performance**
+
+* **Northwest Territories** is the strongest-performing region, generating approximately **$569K** in profit.
+* **Quebec ($14K)** and **Yukon ($6K)** show substantially lower profitability, suggesting opportunities for market expansion or operational review.
+
+### **Shipping & Fulfillment**
+
+* **Regular Air** accounts for **74% of all shipments**, making it the dominant fulfillment method.
+* Heavy reliance on air freight may be limiting overall profitability due to higher transportation costs.
+
+## RECOMMENDATIONS
+
+* Review pricing, supplier agreements, and sales strategies for the **Copiers** category to eliminate losses.
+* Develop targeted campaigns and promotions to address the **August profitability decline**.
+* Optimize shipping operations by reducing dependence on costly air freight where possible.
+* Introduce a **VIP loyalty program** for high-value customers and corporate accounts to improve retention.
+* Increase investment in high-performing regions while reassessing strategies in underperforming markets.
+* Leverage the strong demand for Office Supplies to cross-sell Technology products and improve category profitability.
+
+### BUSINESS IMPACT
+
+This analysis identified key profitability drivers, underperforming product lines, seasonal trends, customer concentration risks, and regional growth opportunities, providing actionable insights to support data-driven business decisions.
+
