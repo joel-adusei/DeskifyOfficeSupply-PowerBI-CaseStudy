@@ -11,30 +11,51 @@ errors and inconsistencies.
 
 
 ## AIM OF THE PROJECT
-- To build a data model using Deskify OfficeSupply Co.’s sales and transaction reportingby using Power BI. This solution will
+- To build a data model using Deskify OfficeSupply Co.’s sales and transaction reporting by using Power BI. This solution will
 centralize data sources and streamline datacleaning. By reducing manual processes, the project will improve reporting accuracy and efficiency.
 
 - Build an interactive dashboards that will enable faster, data-driven decisions.
 
 
-## Methodology
+## Methodology 
 
-- Business Understanding: I defined project objectives to analyze trends in NHS hospital component issues and wastage.
+Before building visuals, I had to clean and model the data to ensure the insights were reliable.
 
-- Data Understanding: I explored the dataset to identify key features and relationships for analysis.
-
-- ETL Process: I extracted, transformed, and loaded the data into Power BI for compatibility and analysis.
-
-- Data Modeling: I created relationships between fact and dimension tables for structured analysis.
-
-- Analysis & Visualization: I developed interactive dashboards and advanced visualizations to uncover trends in revenue, profit margins, shipping mode fulfillment, and regional customer segment distributions etc.
+Step 1: Data Cleaning & Preparation
 
 
-## MODELLING
+Step 2: Modelling & DAX
 
 The data modeling for this project follows a clean Star Schema configuration, where the central Fact Table (Orders) links out to primary Dimension Tables (Customers, Location, Products, and a programmatic Calendar Table) through unique system identifiers.
 
 ![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/deskify%20data%20model.JPG?raw=true)
+
+
+I wrote DAX measures for:
+
+- Total Revenue
+  
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/TR-deskify.JPG?raw=true)
+
+
+- Total profit
+  
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/TP-deskify.JPG?raw=true)
+
+
+- Total Orders
+  
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/TO-deskify.JPG?raw=true)
+
+
+- Total Customers
+  
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/TC-deskify.JPG?raw=true)
+
+
+- Profit Margin
+  
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/PM-deskify.JPG?raw=true)
 
 
 To support robust time-series calculations across the complete 2009–2012 matrix, a custom, standalone time dimension was generated directly inside the Power BI data model using DAX.
