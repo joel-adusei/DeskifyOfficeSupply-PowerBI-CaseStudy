@@ -17,7 +17,7 @@ centralize data sources and streamline datacleaning. By reducing manual processe
 - Build an interactive dashboards that will enable faster, data-driven decisions.
 
 
-  ## Methodology
+## Methodology
 
 - Business Understanding: I defined project objectives to analyze trends in NHS hospital component issues and wastage.
 
