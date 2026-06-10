@@ -21,10 +21,10 @@ centralize data sources and streamline datacleaning. By reducing manual processe
 
 Before building visuals, I had to clean and model the data to ensure the insights were reliable.
 
-Step 1: Data Cleaning & Preparation
+### Step 1: Data Cleaning & Preparation
 
 
-Step 2: Modelling & DAX
+### Step 2: Modelling & DAX
 
 The data modeling for this project follows a clean Star Schema configuration, where the central Fact Table (Orders) links out to primary Dimension Tables (Customers, Location, Products, and a programmatic Calendar Table) through unique system identifiers.
 
@@ -62,3 +62,24 @@ To support robust time-series calculations across the complete 2009–2012 matri
 
 
 ![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/calenderdim.JPG?raw=true)
+
+
+
+### Step3: Dashboard Pages
+
+I designed two interactive pages:
+
+1️⃣ Product Insights
+
+Key KPIs, Total Profit by Product Category, Total Orders by Ship Mode, Top 10 Best Performing States by Profit, Total Profit by Product Name, and Total Profit by Month.
+
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/Product%20Analysis.JPG?raw=true)
+
+
+
+2️⃣ Customer Insights
+
+Key KPIs, Profitability by Customer Segment, Profitability by Product Sub-Category, Profitability by Customer, Profitability by Region 
+and Customer Segment.
+
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/Customer%20Analysis.JPG?raw=true)
