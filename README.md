@@ -144,7 +144,7 @@ Profitability demonstrates strong seasonality:
 * Increase investment in high-performing regions while reassessing strategies in underperforming markets.
 * Leverage the strong demand for Office Supplies to cross-sell Technology products and improve category profitability.
 
-### BUSINESS IMPACT
+## BUSINESS IMPACT
 
 This analysis identified key profitability drivers, underperforming product lines, seasonal trends, customer concentration risks, and regional growth opportunities, providing actionable insights to support data-driven business decisions.
 
