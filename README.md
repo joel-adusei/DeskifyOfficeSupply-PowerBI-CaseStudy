@@ -80,9 +80,12 @@ To support robust time-series calculations across the complete 2009–2012 matri
 
 
 
-### Step3: Dashboard Pages
 
-I designed two interactive pages:
+
+## Step3: DASHBOARD REVIEW
+
+The dashboard provides a comprehensive analysis of sales performance over a four-year period, from 2009 to 2012. It incorporates interactive parameters 
+that allow users to filter and view performance data for a specific year, enabling focused analysis and comparison of sales trends across different time frames.
 
 1️⃣ **Product Insights**
 
