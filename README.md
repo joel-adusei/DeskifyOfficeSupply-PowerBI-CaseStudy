@@ -24,7 +24,7 @@ errors and inconsistencies.
 
 ## AIM OF THE PROJECT
 - To build a data model using Deskify OfficeSupply Co.’s sales and transaction reporting by using Power BI. This solution will
-centralize data sources and streamline datacleaning. By reducing manual processes, the project will improve reporting accuracy and efficiency.
+centralize data sources and streamline data cleaning. By reducing manual processes, the project will improve reporting accuracy and efficiency.
 
 - Build an interactive dashboards that will enable faster, data-driven decisions.
   
