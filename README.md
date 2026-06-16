@@ -5,7 +5,7 @@
 ![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/tim-gouw-KigTvXqetXA-unsplash.jpg?raw=true)
 
 
-***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis***
+***Disclaimer⚠️:*** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis
 
 
 ## INTRODUCTION
