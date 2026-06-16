@@ -10,9 +10,10 @@
 
 ## INTRODUCTION
 
-For this case study, I analyzed data from Deskify's Office Supply — a fictional US company specializing in office supplies, technology/computer accessories, and furniture.
-With a diverse product range catering to both individual consumers and businesses. This Power BI project helped uncover critical insights to inform business decisions around customer
-and product performance.
+For this case study, I analyzed data from Deskify's Office Supply, a fictional U.S. company specializing in office supplies, technology/computer accessories, 
+and furniture. Serving both individual consumers and businesses with a diverse product portfolio, the company provided an ideal dataset for exploring sales performance. 
+Using Power BI, I uncovered actionable insights to support data-driven decision-making around customer behavior, product performance, and overall business growth.
+
 
 
 ## PROBLEM STATEMENT
