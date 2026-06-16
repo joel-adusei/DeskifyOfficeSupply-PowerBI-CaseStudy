@@ -41,7 +41,7 @@ Before building visuals, I had to clean and model the data to ensure the insight
 
 ### Step 2: Modelling & DAX
 
-The data modeling for this project follows a clean Star Schema configuration, where the central Fact Table (Orders) links out to primary Dimension Tables (Customers, Location, Products, and a programmatic Calendar Table) through unique system identifiers.
+The data modeling for this project follows a clean Star Schema configuration, where the central Fact Table (Orders) links out to primary Dimension Tables (Orders, Customers, Location, Products, and a programmatic Calendar Table) through unique system identifiers.
 
 ![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/deskify%20data%20model.JPG?raw=true)
 
